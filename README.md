@@ -40,3 +40,15 @@ Solved by maintaining the largest and second-largest values during a single trav
 
 **Category:** HashMap + Frequency Counting
 Used a `HashMap<Integer, Integer>` to store each number and its frequency. Learned the important pattern `map.put(key, map.getOrDefault(key, 0) + 1)` for counting occurrences.
+
+### 8. First Non-Repeating Element
+
+**Category:** HashMap + Frequency Counting
+Used a `HashMap` to count the frequency of every element, then traversed the original array to find the first element with a frequency of `1`.
+Applied the previously learned `getOrDefault()` frequency-counting pattern successfully.
+
+### 9. Valid Anagram
+
+**Category:** HashMap + Strings + Frequency Counting
+Used two `HashMap<Character, Integer>` maps to count character frequencies in both strings and compare them.
+Handled the edge case of different string lengths and learned how frequency comparison determines whether two strings are anagrams.
