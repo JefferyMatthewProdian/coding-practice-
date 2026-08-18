@@ -64,3 +64,9 @@ Initially struggled with achieving O(1) space, then understood how in-place swap
 **Category:** Arrays + Greedy + One-Pass Traversal
 Tracked the minimum buying price seen so far and calculated the maximum possible profit at each later price.
 Solved the problem in a single traversal with O(n) time and O(1) extra space.
+
+### 13. Maximum Sum Subarray of Size K
+
+**Category:** Arrays + Sliding Window
+Used a sliding window to maintain the sum of `k` consecutive elements by removing the outgoing element and adding the incoming element.
+Solved the problem in a single traversal with O(n) time and O(1) extra space.
