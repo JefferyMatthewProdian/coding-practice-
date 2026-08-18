@@ -52,3 +52,15 @@ Applied the previously learned `getOrDefault()` frequency-counting pattern succe
 **Category:** HashMap + Strings + Frequency Counting
 Used two `HashMap<Character, Integer>` maps to count character frequencies in both strings and compare them.
 Handled the edge case of different string lengths and learned how frequency comparison determines whether two strings are anagrams.
+
+### 11. Reverse String
+
+**Category:** Strings + Two Pointers
+Used two pointers from both ends of a character array and swapped the characters while moving toward the center.
+Initially struggled with achieving O(1) space, then understood how in-place swapping avoids creating another string.
+
+### 12. Best Time to Buy and Sell Stock
+
+**Category:** Arrays + Greedy + One-Pass Traversal
+Tracked the minimum buying price seen so far and calculated the maximum possible profit at each later price.
+Solved the problem in a single traversal with O(n) time and O(1) extra space.
