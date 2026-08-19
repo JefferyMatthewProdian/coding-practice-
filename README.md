@@ -70,3 +70,15 @@ Solved the problem in a single traversal with O(n) time and O(1) extra space.
 **Category:** Arrays + Sliding Window
 Used a sliding window to maintain the sum of `k` consecutive elements by removing the outgoing element and adding the incoming element.
 Solved the problem in a single traversal with O(n) time and O(1) extra space.
+
+### 15. Valid Parentheses
+
+**Category:** Stack + HashMap
+Used an `ArrayDeque` as a stack and a `HashMap` to map opening brackets to their corresponding closing brackets.
+Validated brackets in O(n) time using LIFO ordering with O(n) space for the stack.
+
+### 16. Next Greater Element
+
+**Category:** Stack + Arrays + Monotonic Stack
+Used a stack while traversing the array from right to left, removing elements that cannot be the next greater element.
+Solved the problem in O(n) time with O(n) extra space using the monotonic stack pattern.
