@@ -82,3 +82,9 @@ Validated brackets in O(n) time using LIFO ordering with O(n) space for the stac
 **Category:** Stack + Arrays + Monotonic Stack
 Used a stack while traversing the array from right to left, removing elements that cannot be the next greater element.
 Solved the problem in O(n) time with O(n) extra space using the monotonic stack pattern.
+Add this as **#17**:
+
+### 17. 🚩 Daily Temperatures
+
+**Category:** Stack + Arrays + Monotonic Stack
+Used an `ArrayDeque` as a monotonic stack while traversing the array from right to left. Stored **indices instead of temperatures** so the difference between the current index and the next warmer index could be calculated directly. Initially struggled with storing values instead of indices, then understood how index-based stacks are useful when the answer depends on distance. Solved in O(n) time and O(n) space.
