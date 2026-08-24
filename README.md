@@ -88,3 +88,13 @@ Add this as **#17**:
 
 **Category:** Stack + Arrays + Monotonic Stack
 Used an `ArrayDeque` as a monotonic stack while traversing the array from right to left. Stored **indices instead of temperatures** so the difference between the current index and the next warmer index could be calculated directly. Initially struggled with storing values instead of indices, then understood how index-based stacks are useful when the answer depends on distance. Solved in O(n) time and O(n) space.
+
+### 18. Product of Array Except Self
+
+**Category:** Arrays + Prefix/Suffix Products
+Used two passes to calculate the product of all elements to the left and right of each index without using division. Initially used division and explicit zero handling, then learned how running prefix and suffix products naturally handle zeroes. Stored the left products in the output array and maintained a running right product during the second pass, achieving O(n) time and O(1) extra space apart from the output array.
+
+### 19. 🚩 Trapping Rain Water
+
+**Category:** Arrays + Two Pointers
+Used two pointers from both ends of the array while maintaining the maximum height seen from the left and right. Initially struggled to understand how the algorithm could proceed without finding the actual maximum height on the opposite side, then understood that the smaller boundary determines which side can be safely processed. Solved in O(n) time and O(1) extra space.
